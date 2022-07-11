@@ -9,6 +9,9 @@
    <body>
 
 <?php
+
+// CLASSWORK 1 + 2
+
 $name = 'Claus';
 $surName = 'Mersch';
 $fullName;
@@ -25,9 +28,23 @@ echo "<h1 class='middle'>" . printName() . "</h1>";
 
 echo "<h1> Hello, my name is " . printName() . " and I am {$age} years old. I work as a {$jobTitle}." . "</h1><br>";
 
+// CLASSWORK 3
+
 $players = ["Mark", "John", "Georg", "Lisa"];
 
 echo "<h4>The third player in the team is {$players[2]}<h4>";
+
+// ADVANCED 1
+
+$composer = array(
+   "Soli" => "Adriano Celentano",
+   "Fils de joie" => "Stomae",
+   "Nocturnes, Op. 55: No. 1 in F Minor" => "Frederic Chopin",
+   "Cry me a river" => "Ella Fitzgerald",
+   "Retrograde" => "James Blake"
+);
+
+foreach($composer as $arrKey=>$arrVal) {echo "<p>The song {$arrKey} is composed by {$arrVal}<p>";};
 
 // echo $fullName;
 
