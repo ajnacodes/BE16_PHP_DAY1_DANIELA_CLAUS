@@ -67,6 +67,21 @@ The third player in the team is {$players["name"]["3"]}.
       echo "<p>The song {$arrKey} is composed by {$arrVal}<p>";
    };
 
+   $composers = array( "Playlist" =>
+      ["Soli" => "Adriano Celentano",
+      "Fils de joie" => "Stomae",
+      "Nocturnes, Op. 55: No. 1 in F Minor" => "Frederic Chopin",
+      "Cry me a river" => "Ella Fitzgerald",
+      "Retrograde" => "James Blake"]
+   );
+
+   echo "<p>The song Soli is composed by {$composers["Playlist"]["Soli"]}.<p> <br>";
+   echo "<p>The song Fils de joie is composed by {$composers["Playlist"]["Fils de joie"]}.<p> <br>";
+   echo "<p>The song Nocturnes, Op. 55: No. 1 in F Minor is composed by {$composers["Playlist"]["Nocturnes, Op. 55: No. 1 in F Minor"]}.<p> <br>";
+   echo "<p>The song Cry me a river is composed by {$composers["Playlist"]["Cry me a river"]}.<p> <br>";
+   echo "<p>The song Retrograde is composed by {$composers["Playlist"]["Retrograde"]}.<p> <br>";
+
+
 
 
    // var_dump( $GLOBALS )
