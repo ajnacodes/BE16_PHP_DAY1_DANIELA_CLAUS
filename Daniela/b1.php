@@ -36,7 +36,7 @@ echo "
 <!-- basic exercise two -->
 
 
-<?php 
+<!-- <?php 
 
 $name = "Anna";
 
@@ -60,8 +60,28 @@ I work as a $jobTitle.
 
 ";
 
-?>
+?> -->
 
+
+
+
+<!-- basic three -->
+<?php
+$players = ["name" => [
+    "1" => "Mark",
+    "2" => "John",
+    "3" => "Georg",
+    "4" => "Lisa"]
+];
+echo "
+<div class='b1nameBox'>
+<div class='b1name'>
+<h3>The third player in the team is {$players["name"]["3"] }.
+</h3>
+</div>
+</div>
+";
+?>
 
 
 
