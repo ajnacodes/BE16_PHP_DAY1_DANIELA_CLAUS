@@ -103,7 +103,7 @@ echo "
 
 
 
- <?php
+ <!-- <?php
   
 // Declare an array
 $characters = array(
@@ -135,7 +135,7 @@ foreach ($characters as $key => $value) {
 
 //  ";
   
-?> 
+?>  -->
 
 
 
