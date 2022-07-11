@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 
 <head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
  
 <link rel="stylesheet" href="styles.css">
+
+
     <title>Basic Exercise 1</title>
 </head>
 
@@ -103,14 +107,22 @@ echo "
 
 
 
- <!-- <?php
+ <?php
   
 // Declare an array
 $characters = array(
     "Volcanion" => "Water Absorb",
-    "Flygon" => "Levitate",
-    "Hippowdon" => "Sand Stream"
+    "Flygon" => "Levitate"
 );
+
+$DAcharacters = array(
+        "Hippowdon" => [
+        1 => "Sand Stream",
+        2 => "Sand Storm"],
+        "Raticate" => [
+            1 => "Gluttony",
+            2 => "Hustle"] 
+    );
   
 // Iterate through the array using foreach
 // construct and store the key and its value
@@ -118,15 +130,95 @@ $characters = array(
 // Use foreach loop to display the
 // key of allelements
 
+echo "<div class = 'container-center'>";
 
-foreach ($characters as $key => $value) {
+echo "
+    <div class = 'container justify-content-center align-items-center'>
+";
+
+foreach ($characters as $pokemon => $ability) {
     echo "
     
-    <h3 class='b1nameBox' >Pokemon $key has the ability of $value\n. </h3> 
+    <div class='card text-center'>
+    <div class='card-header'>
+    $pokemon
+    </div>
+    <div class='card-body'>
+      <h5 class='card-title'></h5>
+      <p class='card-text'>Pokemon $pokemon has the ability of $ability\n.</p>
+   
+    </div>
+  </div>
+  </br>
     
     ";
   
 }
+
+foreach ($DAcharacters as $pokemon => $ability) {
+        echo "
+        
+    <div class='card text-center'>
+    <div class='card-header'>
+    $pokemon
+    </div>
+    <div class='card-body'>
+      <h5 class='card-title'></h5>
+      <p class='card-text'>Pokemon $pokemon has the ability of $ability[1] and $ability[2]\n.</p>
+   
+    </div>
+  </div>
+
+  </br>
+
+        ";
+ };
+
+ echo " </div>";
+
+ echo " </div>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+// advanced second
+
+
+// $characters = array(
+//     "Hippowdon" => [
+//       1 => "Sand Stream",
+//       2 => "Sand Storm"],
+//     "Flygon" => "Levitate",
+//     "Volcanion" => "Water Absorb"
+// );
+// // Iterate through the array using foreach
+// // construct and store the key and its value
+// // Use foreach loop to display the
+// // key of allelements
+// foreach ($characters as $key => $value) {
+//     echo "
+//     <h3 class='b1nameBox' >Pokemon $key has the ability of $value[1] and $value[2]\n. </h3>
+//     ";
+// }
+
+
+
+
+
+
+
+
 
 //   echo "  
 
@@ -135,7 +227,7 @@ foreach ($characters as $key => $value) {
 
 //  ";
   
-?>  -->
+?> 
 
 
 
