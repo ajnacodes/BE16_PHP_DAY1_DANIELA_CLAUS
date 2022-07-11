@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.b1nameBox {
+    height: 100%;
+    background: #e9c173;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1name {
+    background-color: #6258d1;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
