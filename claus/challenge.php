@@ -61,6 +61,7 @@
          "img" => "https://upload.wikimedia.org/wikipedia/commons/8/83/Tesla_Model_3_parked%2C_front_driver_side.jpg"
       ]
    ];
+
    echo "
       <div class='container bg-light m-5 p-5 gap-5'>
       <div class='row row-cols-1 row-cols-md-3 g-4 py-5 justify-content-around'>
