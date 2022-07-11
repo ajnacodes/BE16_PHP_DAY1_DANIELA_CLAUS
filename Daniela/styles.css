@@ -1,9 +1,13 @@
-html,
+/* basic exercises */
+
+
+/* html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #cec0a2;
 }
 
 .b1nameBox {
@@ -18,4 +22,41 @@ body {
     background-color: #6258d1;
     padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+
+/* advanced */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #cec0a2;
 }
+
+.b1nameBox {
+    background: #e9c173;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1name {
+    background-color: #6258d1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* advanced */
+
+
+/* 
+html,
+body {
+    width: 100%;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
