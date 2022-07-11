@@ -99,6 +99,14 @@ $cars = [
    ]  
 ];
 
+foreach ($cars as $keyOut => $out) {
+   foreach($out as $keyIn => $value) {
+       echo "key = (" . $keyOut . ", " . $keyIn
+            . "), value = " . $value . "\n";    
+   }
+};
+ 
+
 
 ?>
    </body>
