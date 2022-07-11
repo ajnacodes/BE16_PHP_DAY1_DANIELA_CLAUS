@@ -86,7 +86,7 @@ The third player in the team is {$players["name"]["3"]}.
 
    // var_dump( $GLOBALS )
 
-
+   
    ?>
 
    <!-- JavaScript Bundle with Popper -->
