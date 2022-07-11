@@ -23,7 +23,11 @@ function printName()
 }
 echo "<h1 class='middle'>" . printName() . "</h1>";
 
-echo "<h1> Hello, my name is " . printName() . " and I am {$age} years old. I work as a {$jobTitle}." . "</h1>";
+echo "<h1> Hello, my name is " . printName() . " and I am {$age} years old. I work as a {$jobTitle}." . "</h1><br>";
+
+$players = ["Mark", "John", "Georg", "Lisa"];
+
+echo "<h4>The third player in the team is {$players[2]}<h4>";
 
 // echo $fullName;
 
